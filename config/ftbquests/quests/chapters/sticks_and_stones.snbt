@@ -1,0 +1,119 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sticks_and_stones"
+	group: "7E3CBC1DAD3EDFD2"
+	icon: "minecraft:oak_log"
+	id: "13527920EA8E45BA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tothemoon:textures/step1.png"
+			rotation: 0.0d
+			width: 1.9509803921568627d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tothemoon:textures/title.png"
+			rotation: 0.0d
+			width: 7.9742489270386265d
+			x: 0.5d
+			y: -1.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29AF5FB6754BE887"
+			rewards: [{
+				count: 32
+				id: "4CD0BEF4997F8ED5"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			subtitle: "&6Andesite Alloy&r is the base of everything in &6Create&r."
+			tasks: [{
+				count: 8L
+				id: "22899C967AD14228"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "&6Back to Basics"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29AF5FB6754BE887"]
+			id: "533EFDB121FA017A"
+			subtitle: "Hey, that rhymes!"
+			tasks: [{
+				id: "560E649061C0F2A2"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Craft a &6Shaft&r."
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["533EFDB121FA017A"]
+			id: "0FF2F6AD1FF9F642"
+			subtitle: "These will help you up the speed on your contraptions."
+			tasks: [
+				{
+					count: 2L
+					id: "4C122D448463A0CD"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4084D997002C7D45"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Craft some &6Cogwheels&r."
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["533EFDB121FA017A"]
+			id: "376B223CE891B2E3"
+			subtitle: "The best way to generate stress units early on."
+			tasks: [{
+				id: "13D7D23C76FC286B"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Craft a &6Water Wheel&r."
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["376B223CE891B2E3"]
+			id: "2C126E10CC8F3A0F"
+			subtitle: "&6Large Water Wheels&r can generate &cdouble&r stress units."
+			tasks: [{
+				id: "5D70324938411A6B"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Go Big or Go Home"
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Sticks and Stones"
+}

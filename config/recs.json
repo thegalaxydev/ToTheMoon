@@ -1,0 +1,9 @@
+{
+  "integrations": [
+    "roughlyenoughconfigscreens:jei",
+    "roughlyenoughconfigscreens:framework"
+  ],
+  "configuredBackgrounds": true,
+  "transparentBackgrounds": false,
+  "smoothScrolling": true
+}

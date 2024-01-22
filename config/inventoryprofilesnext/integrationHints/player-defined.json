@@ -1,0 +1,26 @@
+{
+    "net.minecraft.class_481": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": -7,
+                "top": 56
+            },
+            "SETTINGS": {
+                "horizontalOffset": -7,
+                "top": 28
+            }
+        }
+    },
+    "com.mrcrayfish.backpacked.client.gui.screen.inventory.BackpackScreen": {
+        "buttonHints": {
+            "SETTINGS": {
+                "horizontalOffset": -8,
+                "top": 28
+            },
+            "SHOW_EDITOR": {
+                "horizontalOffset": 5,
+                "top": 43
+            }
+        }
+    }
+}
