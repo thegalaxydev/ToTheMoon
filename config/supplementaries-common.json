@@ -133,9 +133,7 @@
       "trapped_present": true
     },
     "flax": {
-      "enabled": true,
-      "wandering_trader_trades": 2,
-      "farmer_trades": 1
+      "enabled": true
     },
     "fodder": true,
     "hourglass": true
@@ -195,8 +193,7 @@
     },
     "globe": {
       "enabled": true,
-      "sepia_globe": true,
-      "wandering_trader_trades": 2
+      "sepia_globe": true
     },
     "sign_post": {
       "enabled": true,
@@ -209,8 +206,7 @@
       "wattle_and_daub": true
     },
     "ash_bricks": {
-      "enabled": true,
-      "mason_trades": true
+      "enabled": true
     },
     "hat_stand": {
       "enabled": true,
@@ -297,8 +293,7 @@
       "allow_enderpearls": false
     },
     "antique_ink": {
-      "enabled": true,
-      "cartographer_trades": true
+      "enabled": true
     },
     "candy": true,
     "stasis": true,

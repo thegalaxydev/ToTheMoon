@@ -11,10 +11,6 @@
       "show_on_advanced_tooltips": false
     },
     "types": {
-      "cake": {
-        "createaddition.chocolate_cake": true,
-        "createaddition.honey_cake": true
-      },
       "leaves_type": {
         "betternether.willow": true,
         "betternether.rubeus": true,
@@ -113,6 +109,10 @@
         "promenade.maple": true,
         "promenade.palm": true,
         "promenade.dark_amaranth": true
+      },
+      "cake": {
+        "createaddition.chocolate_cake": true,
+        "createaddition.honey_cake": true
       }
     },
     "entries": {

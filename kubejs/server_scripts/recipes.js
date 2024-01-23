@@ -1,18 +1,17 @@
 ServerEvents.recipes(event => {
-	event.remove({output: "ad_astra:hammer", type: "minecraft:crafting_shaped"})
 	event.remove({output: "ad_astra:compressor", type: "minecraft:crafting_shaped"})
-
-	event.remove({output: "ad_astra:iron_plate", type: "ad_astra:hammering"})
-	event.remove({output: "ad_astra:steel_plate", type: "ad_astra:hammering"})
-	event.remove({output: "ad_astra:desh_plate", type: "ad_astra:hammering"})
-	event.remove({output: "ad_astra:ostrum_plate", type: "ad_astra:hammering"})
-	event.remove({output: "ad_astra:calorite_plate", type: "ad_astra:hammering"})
 
 	event.remove({output: "ad_astra:iron_plate", type: "ad_astra:compressing"})
 	event.remove({output: "ad_astra:steel_plate", type: "ad_astra:compressing"})
 	event.remove({output: "ad_astra:desh_plate", type: "ad_astra:compressing"})
 	event.remove({output: "ad_astra:ostrum_plate", type: "ad_astra:compressing"})
 	event.remove({output: "ad_astra:calorite_plate", type: "ad_astra:compressing"})
+
+	event.remove({output: "ad_astra:iron_plate", type: "ad_astra:hammering"})
+	event.remove({output: "ad_astra:steel_plate", type: "ad_astra:hammering"})
+	event.remove({output: "ad_astra:desh_plate", type: "ad_astra:hammering"})
+	event.remove({output: "ad_astra:ostrum_plate", type: "ad_astra:hammering"})
+	event.remove({output: "ad_astra:calorite_plate", type: "ad_astra:hammering"})
 
 	event.remove({output: "create_new_age:basic_motor", type: "minecraft:crafting_shaped"})
 	event.remove({output: "create_new_age:advanced_motor", type: "minecraft:crafting_shaped"})
